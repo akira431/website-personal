@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Karang Taruna Bojongtua</title>
+    <meta
+      name="description"
+      content="Website resmi Karang Taruna - wadah kreativitas dan pengabdian generasi muda."
+    />
+    <style>
+      :root {
+        --primary: #0f4c81;
+        --secondary: #fbbf24;
+        --light: #f9fafb;
+        --dark: #111827;
+        --muted: #6b7280;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", sans-serif;
+        color: var(--dark);
+        background: var(--light);
+        line-height: 1.6;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        background: white;
+        padding: 0.8rem;
+        border-bottom: 1px solid #e5e7eb;
+        position: sticky;
+        top: 0;
+      }
+      nav a {
+        color: var(--dark);
+        text-decoration: none;
+        font-weight: 500;
+      }
+      nav a:hover {
+        color: var(--primary);
+      }
+
+      .hero {
+        padding: 3rem 1rem;
+        text-align: center;
+      }
+      .hero h2 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+      }
+      .hero p {
+        color: var(--muted);
+        max-width: 600px;
+        margin: 0 auto 1rem;
+      }
+      .hero .btn {
+        display: inline-block;
+        background: var(--secondary);
+        color: var(--dark);
+        padding: 0.7rem 1.2rem;
+        border-radius: 0.5rem;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
+        padding: 2rem 1rem;
+        max-width: 1000px;
+        margin: auto;
+      }
+      .card {
+        background: white;
+        border-radius: 0.8rem;
+        padding: 1rem;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+      .card h3 {
+        margin: 0.5rem 0;
+        color: var(--primary);
+      }
+      .card p {
+        color: var(--muted);
+      }
+
+      .agenda {
+        background: #f3f4f6;
+        padding: 2rem 1rem;
+        text-align: center;
+      }
+      .agenda h2 {
+        color: var(--primary);
+      }
+
+      footer {
+        background: var(--primary);
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+      /* ...existing code... */
+      .gambar-tengah {
+        display: block;
+        margin: 0 auto 1rem auto;
+        max-width: 220px;
+        height: auto;
+      }
+      /* ...existing code... */
+      /* ...existing code... */
+      header {
+        background: linear-gradient(135deg, var(--primary), #2563eb),
+          url("bg.jpg") center/cover no-repeat;
+        color: white;
+        padding: 2rem 1rem;
+        text-align: center;
+      }
+      /* ...existing code... */
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="img/logo1.png" alt="Logo Karang Taruna" class="gambar-tengah" />
+      <h1>Karang Taruna Desa Bojongtua</h1>
+      <p>Wadah kreativitas, pengabdian, dan kebersamaan generasi muda</p>
+    </header>
+
+    <nav>
+      <a href="#beranda">Beranda</a>
+      <a href="tentangkami.html">Tentang Kami</a>
+      <a href="kegiatan.html">Kegiatan</a>
+    </nav>
+
+    <section class="hero" id="beranda">
+      <h2>Selamat Datang di Website Karang Taruna Bojongtua RT 001 RW 001</h2>
+      <p></p>
+      <p>
+        Kami hadir untuk mengembangkan potensi generasi muda dalam kegiatan
+        sosial, budaya, olahraga, dan kewirausahaan.
+      </p>
+      <a href="#tentang" class="btn">Pelajari Lebih Lanjut</a>
+    </section>
+
+    <section class="features" id="tentang">
+      <div class="card">
+        <h3>Visi</h3>
+        <p>
+          Mewujudkan pemuda yang mandiri, berkarakter, dan peduli lingkungan.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Misi</h3>
+        <p>
+          Meningkatkan kreativitas, mempererat persaudaraan, dan memberikan
+          kontribusi nyata bagi masyarakat.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Program</h3>
+        <p>
+          Olahraga, seni budaya, bakti sosial, pelatihan keterampilan, dan
+          kewirausahaan pemuda.
+        </p>
+      </div>
+    </section>
+    <!-- ...existing code... -->
+    <div class="container">
+      <video
+        src="img/17an.mp4"
+        autoplay
+        loop
+        muted
+        width="100%"
+        height="240"
+        style="border-radius: 12px; margin-bottom: 1.5rem"
+      ></video>
+    </div>
+    <!-- ...existing code... -->
+
+    <section class="agenda" id="kegiatan">
+      <h2>Agenda Kegiatan Terbaru</h2>
+      <p>🔹 malam tasyakuran 16 Agustus 2025</p>
+      <p>🔹 perlombaan 17 Agustus 2025</p>
+      <p>🔹 Pembubaran panitia 17 Agustus 13-14 September 2025</p>
+    </section>
+
+    <footer>
+      <div
+        id="kontak"
+        style="
+          background-color: #1b8ef2;
+          color: white;
+          padding: 20px;
+          text-align: left;
+        "
+      >
+        <h3>Hubungi Kami</h3>
+        <p>telepon: 0896-3720-2636</p>
+        <p>Email: wahyudifajar434@gmail.com</p>
+        <p>
+          Alamat: Jl. H. Gani Bojongtua, RT.001/RW.001, Jatimakmur, Kec. Pd.
+          Gede, Kota Bks, Jawa Barat 17413
+        </p>
+        <p>© 2025 Karang Taruna Desa Sejahtera. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
